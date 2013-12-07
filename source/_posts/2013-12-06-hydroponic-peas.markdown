@@ -20,7 +20,8 @@ sproutling and that is when things really got interesting.  We designed out a
 small hydroponic jar for the seedling that is seems to be doing fairly well.
 
 Doing this has me excited to start my own plants at home!  Here are a couple
-snapshots of "Peaty"
+snapshots of "Peaty".  You can see that in just four days he has grown like a
+champ!
 
 {% img /images/peaty-2013-12-02.jpg "Peaty" on 12-02-2013 %}
-{% img /images/peaty-2013-12-06.jpg "Peaty" on 12-02-2013 %}
+{% img /images/peaty-2013-12-06.jpg "Peaty" on 12-06-2013 %}
