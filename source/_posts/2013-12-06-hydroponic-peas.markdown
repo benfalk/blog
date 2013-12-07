@@ -17,4 +17,10 @@ own plant in the office, a pea plant.
 With handfull of pea seeds, some starting blocks, and a plastic grow bin he
 started this fascinating journey.  Only one out of three seeds made it to a
 sproutling and that is when things really got interesting.  We designed out a
-small hydroponic jar for our seeding with
+small hydroponic jar for the seedling that is seems to be doing fairly well.
+
+Doing this has me excited to start my own plants at home!  Here are a couple
+snapshots of "Peaty"
+
+{% img /images/peaty-2013-12-02.jpg "Peaty" on 12-02-2013 %}
+{% img /images/peaty-2013-12-06.jpg "Peaty" on 12-02-2013 %}
