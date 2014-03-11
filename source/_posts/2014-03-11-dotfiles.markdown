@@ -22,7 +22,7 @@ is what I have found so far.
 I program on a real man's operating system, Linux.  I am a real lazy man though
 so I am more specifically programming on Ubuntu.  I won't get into the details
 but the first order of business was to make sure the terminal emulator was up
-to the challenge.  By stock default Ubuntu ships with 'gnome-terminal', which
+to the challenge.  By default Ubuntu ships with 'gnome-terminal', which
 does the job for quick hacking and maintenance; but not for full time
 programming.  After doing the research it looks like the best terminal emulator
 out there for linux is 'konsole'.  A slightly scary issue when installing this
