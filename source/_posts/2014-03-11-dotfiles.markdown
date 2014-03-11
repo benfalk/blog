@@ -1,0 +1,71 @@
+---
+layout: post
+title: "Working from the Console"
+date: 2014-03-11 08:32:33 -0700
+comments: true
+categories: 
+- Linux
+- Development
+---
+So about a month or so ago I made the switch to doing development fulltime on
+the console.  The road hasn't been exactly easy and there are times when I
+feel like going back.
+
+<!-- more -->
+
+It's at those times when I have to remember to stay the course and try to find
+a way to remove the road blocks I am facing with command line development.  The
+first big problem I was having was trying to find out where to start.  I "knew"
+that I should be using Vim, but beyond that I was pretty lost.  The following
+is what I have found so far.
+
+I program on a real man's operating system, Linux.  I am a real lazy man though
+so I am more specifically programming on Ubuntu.  I won't get into the details
+but the first order of business was to make sure the terminal emulator was up
+to the challenge.  By stock default Ubuntu ships with 'gnome-terminal', which
+does the job for quick hacking and maintenance; but not for full time
+programming.  After doing the research it looks like the best terminal emulator
+out there for linux is 'konsole'.  A slightly scary issue when installing this
+is the army of dependencies it brings with it, this is because konsole is the
+KDE default terminal.  The reason I went with konsole is it supports 24bit
+color and does a great job of anti-aliasing the fonts.
+
+Once I had my terminal all fired up it was time to put it to work for me.  At
+first I was using the tabs that are provided with konsole but I quickly dropped
+them after I found what I think will be a long-term tool on the console,
+[tmux](http://tmux.sourceforge.net/).  I can't go into all the details, but in
+short tmux gives you amazing "tab" and "pane" development.  This allows you to
+segment a portion of the screen for vim and have other sections for running
+other terminal tasks.  You can also throw panes into new tabs etc...  Another
+great feature of tmux is the ability to do remote pair programming with it. I
+strongly urge you to check it out if you haven't yet.
+
+At this stage in the game things where going so-so.  I found configs to hint to
+tmux and vim that my terminal didn't suck and that all the colors of the world
+were available to them.  Things still didn't seem up to par though on the
+aesthetics when I compared it to other screen casts I was watching.  A little
+digging turned up an awesome tool called [powerline](http://goo.gl/QGyoY5).
+This python developed tool uses some tweaked fonts that turn everything into
+awesome!  As of this posting there isn't an easy 'apt-get' solution for it, but
+these directions will get you up and going.
+
+* sudo apt-get install python-pip git
+* pip install --user git+git://github.com/Lokaltog/powerline
+* add "~/.local/bin" to your $PATH
+* wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
+mkdir -p ~/.fonts/ && mv PowerlineSymbols.otf ~/.fonts/
+* fc-cache -vf ~/.fonts
+* mkdir -p ~/.config/fontconfig/conf.d/ && mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+
+At this point powerline is ready to go. To get it into your respective programs
+you need to add it in to the dotfiles for them.  You can look at my 
+[dotfiles](http://goo.gl/kXCP33) git repo if you want to see how I added them
+into bash, vim, and tmux. Here is what my terminal looks like.
+
+{% img /images/terminal-goodness-2014-03-11.png "Terminal Goodness" %}
+
+As an added bonus round, I started using [finch](http://goo.gl/w01LUE).  Which
+is a console driven version of the popular messenger program Pidgin.
+
+That is pretty much where I am today.  I plan on making another post with some
+vim tweaks I have picked up as this post is already getting a bit to long.
