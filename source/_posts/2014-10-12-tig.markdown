@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Tig, Git's Companion Tool"
+date: 2014-10-12 19:52:12 -0500
+comments: true
+categories: 
+- Linux
+---
+I wanted to share this amazing tool I learned about called
+[tig](http://goo.gl/fT6o3G).  Taken strait from the github repo page:
+
+>Tig is an ncurses-based text-mode interface for git. It functions mainly as a
+>Git repository browser, but can also assist in staging changes for commit at
+>chunk level and act as a pager for output from various Git commands.
+
+What it doesn't mention is how amzing it is!  This nugget has kept me at the
+command line longer these last couple days without needing to go go back
+to a GUI like Github to get a clearer picture of a project landscape. I haven't
+had enough time yet to fashion a good .tigrc file yet but looking at the man
+page shows a ton of configurations for it.
+
+<!-- more -->
+
+It has quite a few modes.  Here is tig with no parameters in a git directory:
+
+{% img /images/tig-in-action.png "Default Tig" on 12-02-2013 %}
+
+Here is tig blame on a file:
+
+{% img /images/tig-blame.png "Tig Blame" on 12-02-2013 %}
