@@ -40,7 +40,7 @@ could have helped out Peter.
 Imagine that shortly after creating his pull request, Peter gets an automated
 email letting him know his pull request was automatically closed because it
 didn't follow the company's process convention.  The email then linked Peter to
-the process best practises which describes how the whole end to end of a pull
+the process best practices which describes how the whole end to end of a pull
 request works at Widgets Inc.  After a little self-education Peter could then
 rename his pull request and move on.
 
