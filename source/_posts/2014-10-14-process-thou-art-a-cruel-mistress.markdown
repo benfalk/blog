@@ -11,7 +11,7 @@ categories:
 > -- Benjamin Falk
 
 Oh how I love to hate process.  It's put in place to make things simple, but
-when it's heavily reliant on people just doing the right things it sucks.  All
+when it's heavily reliant on people just doing the right things, it sucks.  All
 to often it's ritual is used to haze new hires and harnessed as a tool to slow
 unwanted changes down by other entities in an organization.
 
@@ -44,12 +44,21 @@ the process best practices which describes how the whole end to end of a pull
 request works at Widgets Inc.  After a little self-education Peter could then
 rename his pull request and move on.
 
-There are loads of benefits to this small shift.  First, Peter is alerted
-immediately about the process he has broken.  Second it has prevented other
-teams from being harmed by Peter's mistake, by automatically closing the pull
-request.  Third it has referenced where the process documentation is for this
-particular thing.  All of these are great, and could be easily implemented by
-most software shops of the size that warrant such process to begin with.
+There are loads of benefits to this small shift.
+
+1. Peter is alerted immediately about the process he has broken.  Peter is 
+   closer time wise to the error he's created and will be able to correct it
+   easier.
+2. It has prevented other teams from being harmed by Peter's mistake, in this
+   case through automatically closing the pull request.
+3. It has referenced where the process documentation is for this particular
+   thing.
+4. Jared never had to get involved and waste his time.  For some people this
+   may be a threat to their livelyhood, but we'll assume if you're reading this
+   that doesn't apply to you.
+
+All of these are great, and could be easily implemented by most software shops
+of the size that warrant such process to begin with.
 
 I urge everyone, the next time you or one of your fellow work mates breaks
 process, run though a small checklist of items that could help prevent
