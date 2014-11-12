@@ -5,6 +5,7 @@ date: 2014-11-06 09:26:53 -0600
 comments: true
 categories: 
 - Ruby
+- Refactoring
 - Ruby Golf
 ---
 
