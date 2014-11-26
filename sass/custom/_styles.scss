@@ -1,2 +1,11 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+.star-net {
+  background-image: url('../images/universe.jpg');
+  background-size: 100% 100%;
+}
+#galaxy {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
