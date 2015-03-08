@@ -18,3 +18,6 @@ learning Elixir next.  I have enjoyed learning functional programming languages
 and think there is some really good lessons to learn from them.  I'm not sure
 what will be on my horizon next; however, I feel more confident having added
 this knowledge to my tool belt!
+
+_Edit: You can find an example of Gridlock here:
+[Gridlock](http://benfalk.com:8080/)_
