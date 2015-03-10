@@ -5,6 +5,7 @@ date: 2014-10-14 19:03:52 -0500
 comments: true
 categories: 
 - Miscellaneous
+- Software Process
 ---
 > Those who give up automated process for ease of development deserve neither.
 >
