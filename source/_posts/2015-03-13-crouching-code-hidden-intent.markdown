@@ -36,9 +36,12 @@ def initialize(data)
 end
 ```
 
+<!-- more -->
+
 This has removed the double assignment and focused on the fact that `@data` is
-either going either one or the other of something.  One thing to note is this
+either going to be one or the other of something.  One thing to note is this
 has added lines of code to the definition, but I feel they are worth it.
+
 Another way you could layout this method and slim it down would be like this:
 
 ``` ruby
