@@ -37,7 +37,7 @@ package in, during an asset compile we were greated with the following error:
 Sprockets::FileNotFound: couldn't find file 'requirejs-plugins/bower.json'
 ```
 
-When you looking in `vendor/assets/javascripts/requirejs-plugins` you can
+When you look in `vendor/assets/javascripts/requirejs-plugins` you can
 clearly see there is a `bower.json` file, so what is the deal?  It turns out
 Sprockets is to blame for this one, at least partially.  To better explain I'll
 include the code in question; which was `2.12.3` as of this writing.
