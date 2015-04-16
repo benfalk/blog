@@ -4,6 +4,10 @@
   background-image: url('../images/universe.jpg');
   background-size: 100% 100%;
 }
+.header-info {
+  position: relative;
+  z-index: 2;
+}
 #galaxy {
   position: absolute;
   top: 0;
