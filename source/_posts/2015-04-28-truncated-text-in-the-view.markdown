@@ -9,11 +9,11 @@ categories:
 ---
 If you've been in web development for any amount of time, eventually you'll run
 into the challenge of shortening the amount of text that is on your website.
-This will apply for certain areas on your pages.  No matter what your software
+This will apply for certain areas on your pages and no matter what your software
 stack is, it seems like the first area to tackle truncating text is on the
-back-end.  I would urge everyone to strongly reconsider doing this server side
-because most of the time it is a client-side view's concern and I'll explain
-why...
+back-end.  I would urge everyone to strongly reconsider not doing this server
+side because most of the time it is a client-side view's concern and I'll
+explain why...
 
 <!-- more -->
 
