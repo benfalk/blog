@@ -9,4 +9,4 @@ categories:
 Having a *great* time at Hack Tennessee!  Trying to fiddle with Elixir and build
 some awesome software.
 
-{% img /images/hack-tennessee.jpg %}
+{% img /images/hack-tennessee.jpg "Chopping on it" %}
