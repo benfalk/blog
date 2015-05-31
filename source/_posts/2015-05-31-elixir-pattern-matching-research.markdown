@@ -169,6 +169,9 @@ times were way faster than the pattern matching and `HashDict` slowest lookup
 times on average.  I guess for now I am left with more questions than answers;
 however for the time it appears compiling in a bunch of methods may be your best
 bet when referring to a static list of values.
+<<<<<<< HEAD
 
 If you want to tinker with this yourself I threw up all of my code in a simple
 mix project on my github: [elixir_pattern_performance](https://goo.gl/FPJf8f)
+=======
+>>>>>>> f17b5c3fb8f43a1c2dc1bb86fbe39049a5c47ac4
