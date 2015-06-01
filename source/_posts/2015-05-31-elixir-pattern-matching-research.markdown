@@ -57,7 +57,7 @@ end
 ```
 
 The `PatternPerformance.HashDict` module creates a `HashDict` structure at
-compile time and sets it as @words.  The `is_word?` function defined simple
+compile time and sets it as @words.  The `is_word?` function defined simply
 references this structure, returning is value which is true, and is given
 `false` as the default value to return if the key is not found.  Items to note
 about this module is it takes about 4 seconds to compile and is 1.6 megabytes
