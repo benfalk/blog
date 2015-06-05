@@ -9,10 +9,10 @@ categories:
 ---
 Today I had to do some advance `curl`ing and I though I would share what I did
 to really get the most out of what I was doing.  Essentially I had a huge CSV of
-values that I wanted to go through and get the status header for.  One option
+values that I wanted to go through and get the status code for.  One option
 possible was to bust out Ruby or Elixir and write some _quick_ software to
-accomplish the task; but bash once again has come out on top with the _one
-liner_ that seems to be ideal.
+accomplish the task; but bash once again has come out on top with the _one_
+_liner_ that seems to be ideal.
 
 <!-- more -->
 
@@ -36,7 +36,10 @@ In my case I only wanted the first field; which contains the URLs that I wanted
 to check.  Here is the command that was used; which will be broken down:
 
 ``` bash
-cat file-of-things.csv | cut -d , -f 1 | xargs -n 1 -P 10 -I URL curl -sL -w "%{http_code} %{url_effective}\\n" URL -o /dev/null > results.txt
+cat file-of-things.csv | \ 
+    cut -d , -f 1 | \
+    xargs -n 1 -P 10 -I URL \
+    curl -sL -w "%{http_code} %{url_effective}\\n" URL -o /dev/null > results.txt
 ```
 
 This is taking the urls from the csv, running 10 curls at a time, and outputting
@@ -56,4 +59,7 @@ Lastly the output of all of these results are being aggregated into a
 ```
 
 If you have what seems like a complicated task; look again.  It may be as simple
-as the one liner I found!
+as the one liner I found! A big thanks to [Lee Jones](http://leejones.github.io/)
+for showing me that `xargs` has a parallel option to it.  I haven't looked into
+it yet; however, it looks like the [gnu parallel](http://goo.gl/nU93uH) command
+has a bit more fire-power to it for processing.
