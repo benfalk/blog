@@ -23,12 +23,35 @@ have noticed over the years that seem to breed this behavior.
 ### Unclear Objectives
 
 This has many faces to it, but it boils down to vague descriptions of what is
-trying to be accomplished by a project.  One of the best ways to identify if you
+to be accomplished by a project.  One of the best ways to identify if you
 have unclear objectives is when there is a lack of metrics to measure success.
 If you can't measure success, it becomes difficult to produce anything.  The
-project will continue to shift as the "general" feeling there isn't success.  If
-you have.
+project will continue to shift if the "general feeling" is there isn't success.
+If you have a poor description of the problem and a problem describing how you
+can measure success you are setting yourself for a hard time.
 
 ### Corporate Structure
 
+There are *way* to many of these go into; but perhaps the best way to distill
+this problem down is with the problem of silos.  When people speak about silos
+they sometimes refer to "marketing" versus "development".  Here is the
+business dictionary term for "silo mentality."
+
+> A mind-set present in an organization when certain departments or sectors do
+> not wish to share information  with others in the same company.  This type of
+> mentality can reduce the efficiency of the overall operation, reduce morale,
+> and may contribute to the demise of a productive company culture.
+
+This leads to what appears to be sudden and irrational changes to product
+between departments.  So much time is wasted working towards a goal that is
+changing when that goal information is not shared with other departments sooner.
+
 ### Distrust 
+
+Just hearing the word causes anxiety and tension in many developers.  When
+management can't trust their employees and vise-versa productivity always seems
+to come crawling to a snails pace.  After some heavy reflection I have come to
+the conclusion _most_ people don't distrust others at the unhealthy levels that
+begin to kill your chances for success.
+
+
