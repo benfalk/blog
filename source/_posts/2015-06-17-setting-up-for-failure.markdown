@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Setting Up for Failure"
-date: 2015-06-17 21:45:14 -0500
+date: 2015-06-22 10:19:14 -0500
 comments: true
 categories: 
 - Software Sadness
@@ -50,8 +50,9 @@ changing when that goal information is not shared with other departments sooner.
 
 Just hearing the word causes anxiety and tension in many developers.  When
 management can't trust their employees and vise-versa productivity always seems
-to come crawling to a snails pace.  After some heavy reflection I have come to
+to come crawling to a snail's pace.  After some heavy reflection I have come to
 the conclusion _most_ people don't distrust others at the unhealthy levels that
-begin to kill your chances for success.
-
-
+begin to kill your chances for success.  What normally happens is people want
+more insight into a situation to help others.  This is felt as distrust by the
+other party and without immediate clarification the cycle of distrust will get
+deeper and deeper.
