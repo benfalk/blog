@@ -56,3 +56,9 @@ begin to kill your chances for success.  What normally happens is people want
 more insight into a situation to help others.  This is felt as distrust by the
 other party and without immediate clarification the cycle of distrust will get
 deeper and deeper.
+
+As distrust grows everyone begins to naturally stop sharing information.  This
+creates the same silo mentality that is so destructive.  Something worse is
+people begin to sensationalize what they observe and assume the worst.  The
+smallest of indiscretions causes everyone to loose focus on their work and
+instead worry about what _may or may not_ be happening around them.
