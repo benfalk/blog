@@ -32,7 +32,7 @@ can measure success you are setting yourself for a hard time.
 
 ### Corporate Structure
 
-There are *way* to many of these go into; but perhaps the best way to distill
+There are *way* too many of these go into; but perhaps the best way to distill
 this problem down is with the problem of silos.  When people speak about silos
 they sometimes refer to "marketing" versus "development".  Here is the
 business dictionary term for "silo mentality."
