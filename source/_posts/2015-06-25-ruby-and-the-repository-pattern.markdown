@@ -10,10 +10,16 @@ categories:
 ---
 
 Something you will notice after working with a Rails application for any amount
-of time is that is easy for your models to get bloated with business logic.
+of time is that it's easy for your models to get bloated with business logic.
 ActiveRecord makes it *very* easy to chuck in non-essential model ideas, such as
 complex model validation and callbacks.  For a small Rails project this isn't a
 problem; however, as it begins to grow and your models need to change in the
 context you're using them this is when you run into problems.
 
 <!-- more -->
+
+More often than not when you get to this point you have to start un-winding all
+of the logic that you have baked into your models.  A popular pattern that helps
+avoid this from happening is the repository pattern, and a great gem for this is
+[rom](http://rom-rb.org/).  At the heart what you get is ActiveRecord, but with
+forced seperation of concerns.
