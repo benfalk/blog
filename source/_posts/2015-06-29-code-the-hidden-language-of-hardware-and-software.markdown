@@ -20,9 +20,9 @@ Before you know it the book is building adding circuits and explaining how to
 use carry over bits to continue to add larger and larger bytes of data with just
 an 8 bit adder.  After constructing the adder the circuits get more and more
 complex as you are shown how you can do subtraction by adding with the twos
-compliment.  After that the book sneakily introduces hexadecimal and assembly.
+compliment.  Then the book sneakily introduces hexadecimal and assembly.
 
-After reading this book you'll have a pretty good understanding as to what is
+If you read this book you'll have a pretty good understanding as to what is
 happening under the hood of computers.  It does a fantastic job of explaining
 how your PC componants work together, such as the CPU, RAM, data bus, and I/O
 devices.  The only thing I found a little off was sometimes, especially near the
@@ -32,6 +32,10 @@ talking about fiber optics.
 Another great thing I love about this book is the history.  It explains why a
 byte is 8 bits, where some of the first computers were used, and how they moved
 from a mechanical to solid integrated circuits.  Reading this book has me book
-marking and wanted to read more into the history that happened with IBM and Bell
+marking and wanting to read more into the history that happened with IBM, Bell
 Labs, Xerox, Intel, and a whole other myriad of players from the fifties to
 about the late eighties.
+
+I recommend this book to any developer who wants a deeper knowledge of how their
+software is working on the "metal."  It does a fantastic job of quickly covering
+in 400 pages the overall basics of computer science.
