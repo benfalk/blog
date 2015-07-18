@@ -1,7 +1,0 @@
----
-layout: post
-title: "Moving On"
-date: 2015-07-11 23:03:23 -0500
-comments: true
-categories: 
----
