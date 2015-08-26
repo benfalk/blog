@@ -113,4 +113,5 @@ The following code will **not** work.
 ```
 
 In this case, `allow` overrides previous mock setups.  When run this code is run
-it `response` will always return 200.  
+it `response` will always return 200.  If you want to check this out for youself
+I threw it up on [github](https://github.com/benfalk/fetcher).
