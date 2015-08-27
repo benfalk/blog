@@ -112,6 +112,6 @@ The following code will **not** work.
   allow(response).to receive(:code).and_return('200').ordered 
 ```
 
-In this case, `allow` overrides previous mock setups.  When run this code is run
-it `response` will always return 200.  If you want to check this out for youself
-I threw it up on [github](https://github.com/benfalk/fetcher).
+In this case, `allow` overrides previous mock setups.  When this code is run
+the `response` will always return 200.  If you want to check this out for
+youself I threw it up on [github](https://github.com/benfalk/fetcher).
