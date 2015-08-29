@@ -7,7 +7,7 @@ categories:
 - ruby
 ---
 When coding sometimes it's difficult to think through edge cases of what will
-happen when.  Instead of thinking to hard about it let RSpec do the heavy
+happen when.  Instead of thinking too hard about it let RSpec do the heavy
 lifting for you!  Pretend you have the following `Fetcher` class responsible for
 performing http requests and retrying when the host sever has problems:
 
