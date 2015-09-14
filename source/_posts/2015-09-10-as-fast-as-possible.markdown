@@ -15,10 +15,10 @@ under negative tensions normally isn't favorable.
 
 <!-- more -->
 
-Often development teams begin to loose the feeling of autonomy when management
+Often development teams will loose the feeling of autonomy when management
 is asking for them to go below a level of quality that they are comfortable
 with.  As this drops so does their motivation, which in turn often effects their
-speed.  Potentially at some point a development team can even start producing
+speed.  Potentially at some point a development team can even begin producing
 poorer code at slower speeds.  This is the exact opposite of what management
 hopefully wanted!
 
@@ -31,12 +31,12 @@ these two different messages for example.
 >  You want this all done by when?!  There is no way we can get this done by
 >  then.  Even if we do the technical debt will be crazy.
 
-Notice how this type of message doesn't really let others know your team is
-concerned about quality.  Talking about `technical debt` begins to touch on it,
-but often this is lost with others that don't understand development.  Instead
-try to have a conversation focused on your software and it's users...
+Notice how the message doesn't really let others know your team is concerned
+about quality.  Talking about `technical debt` touches on it, but often this is
+lost with others that don't understand development.  Instead try to have a
+conversation focused on your software and it's users...
 
 >  We're concerned with the timeline you've given us to complete this project.
 >  With the speed we'll be working at there is a high chance the quality of
->  our product may potentially suffer, and we don't want to risk giving our
+>  our product will potentially suffer, and we don't want to risk giving our
 >  users less then our best.
