@@ -25,7 +25,7 @@ I see this more often then I care to remember:
   end
 ```
 
-Has has this built in and performs the same as above.
+Hash has this built in and performs the same as above.
 
 ``` ruby
 hash.slice(:key, :key2)
