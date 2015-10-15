@@ -5,6 +5,7 @@ date: 2015-10-13 07:03:35 -0500
 comments: true
 categories: 
 - Ruby
+- PostgreSQL
 ---
 If you're using ActiveRecord 4.2+ you're in luck.  It carries support for
 Postgres' `JSONb` feature.  `JSONb`, and it's cousin `JSON` allow you to
@@ -42,7 +43,8 @@ add_index :table_name, :column_name, using: :gin
 
 ## Changing From a Text Column in a Rails Migration
 
-Use this if you are serializing json into a text column currently
+* Use this if you are serializing json into a text column currently
+* Make sure you always have a back-up of production before migrating!
 
 ``` ruby
 # json format
@@ -55,6 +57,16 @@ add_index :table_name, :column_name, using: :gin
 
 ## Querying with ActiveRecord
 
+[Operator List](http://www.postgresql.org/docs/9.4/static/functions-json.html)
+
 ``` ruby
 # jsonb format
-Order.where('items ?& arraj
+# details->gift_message OR details->shipping_extra
+Order.where('details ?| array[:keys]', keys: %w(shipping_extra gift_message))
+
+# details->gift_message AND details->delivery_contact
+Order.where('details ?& array[:keys]', keys: %w(delivery_contact gift_message))
+
+# preferences->contact_me = true AND preferences->veteran = true
+User.where('preferences @> ?', {contact_me: true, veteran: true}.to_json)
+```
