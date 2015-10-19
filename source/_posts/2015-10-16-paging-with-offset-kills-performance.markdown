@@ -104,14 +104,18 @@ result set looked like `updated_at=103947728, id=83944` and the 25th record was
 ``` sql
 -- Fetching the second page
 SELECT * FROM records
-WHERE updated_at < 103948728 AND id < 89331
+WHERE (updated_at, id) < (103948728, 89331)
 ORDER BY updated_at DESC, id DESC LIMIT 50;
 
 -- Fetching the third page
 SELECT * FROM records
-WHERE updated_at < 103947728 AND id < 83944
+WHERE (updated_at, id) < (103947728, 83944)
 ORDER BY updated_at DESC, id DESC LIMIT 50;
 ```
+
+> **EDIT (2015-10-19)** Thanks to [Robert Ulejczyk](https://github.com/robuye) for
+> pointing out to use row value queries above and also mentioning that you may
+> want to have a two-column index on the above columns for performance.
 
 This doesn't support jumping to arbitrary pages and does involve fetching more
 records at a time then we need to; however, it helps avoid using offset.
@@ -120,7 +124,7 @@ I'm not saying to rip out all of your paging code now.  In fact for most end
 user scenarios using offset is probably fine, especially when the user has
 oodles of filter and sorting options at their disposal.  Chances are they won't
 go back too many pages to where it matters. If however you are generating a
-lengthy report or larges sections of your data is being operating on in a
+lengthy report or large sections of your data is being operating on in a
 programmatic manner you may want to worry about this.  It was eating up
 performance time for me and could be for you as well.
 
