@@ -3,8 +3,8 @@ var pxs = [];
 var rint = 50;
 $(document).ready(function() {
     var windowSize = function() {
-        WIDTH = $('.star-net').innerWidth();
-        HEIGHT = $('.star-net').innerHeight();
+        WIDTH = $('.star-net')[0].getBoundingClientRect().width;
+        HEIGHT = $('.star-net')[0].getBoundingClientRect().height;
         canvas = $('#galaxy');
         canvas.attr('width', WIDTH).attr('height', HEIGHT);
     };
