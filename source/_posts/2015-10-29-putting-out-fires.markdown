@@ -22,12 +22,12 @@ I can still remember driving home from town with my mom.  We saw smoke in the
 distance and the closer we got to home the bigger the smoke clouds got.  When we
 finally got into view of our farm it was a sickening feeling, watching smoke
 belch out from all sides.  Mom slammed on the gas and we raced down the last
-stretches of rural stone roads.  When we got there mom shouted for us to make
+stretches of rural stone roads.  Upon arrival mom shouted for us kids to make
 sure all of the animals were out and to get the hoses ready as she ran to the
 house to call the fire department.
 
-Luckily for us, we lived around some great neighbors and one of them had already
-called the fire department and was in our barn already throwing buckets of water
+Luckily for us, we lived around some great neighbors.  One of them had already
+called the fire department and was in our barn throwing buckets of water
 on hay that had spontaneously combusted.  I brought up the garden hoses for him
 and we had most of fire contained when the fire department arrived.  In the end
 thankfully the only thing destroyed was hay and some minor damage to the
