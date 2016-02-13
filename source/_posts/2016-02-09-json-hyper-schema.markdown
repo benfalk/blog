@@ -103,7 +103,7 @@ a way that can be automated.  While a lot of clients still don't use it much you
 can use the `Link` header of HTTP to point to these.
 
 ```
-Link: <http://api.whatever.com/schemas/person.json>; rel="describes"
+Link: <http://api.whatever.com/schemas/person.json>; rel="describedBy"
 ```
 
 I like to think of this as "CSS for your API".  It describes to the client how
