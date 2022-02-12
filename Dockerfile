@@ -14,7 +14,8 @@ ENV LANG C.UTF-8
 WORKDIR /blog
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
-
+RUN apt update
+RUN apt-get install rsync -y
 
 # ****** all commands assume in blog directory ******
 
@@ -36,3 +37,9 @@ RUN bundle install
 # Watch for changes and preview them:
 #
 # docker run -it --rm -p 4000:4000 -v $PWD:/blog blog rake preview
+#
+
+# Deploy site to the world-wide-web
+#
+# docker run -it --rm -v $HOME/.ssh:/root/.ssh -v $PWD:/blog blog rake rsync
+#
